@@ -1,0 +1,195 @@
+/*------------------------ฟร้อนทั้งหมด------------------------------------------------*/
+*{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/*-----------------------sec slide-------------------------------------------------*/
+.c1{
+    background-color: #5c5656; /* Green */
+    border: none;
+    color: rgb(228, 222, 222);
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+
+}
+
+.carousel-item{
+    height: 600px;
+}
+
+.carousel-image-1{
+    background-image: url('img/tep.jpg');
+    background-size: cover;
+    
+}
+
+.carousel-image-2{
+    background-image: url('img/notepad-1130743_1920.jpg');
+    background-size: cover;
+    
+}
+
+.carousel-image-3{
+    background-image: url('img/pic1.jpg');
+    background-size: cover;
+    
+}
+/*-----------------------sec record-------------------------------------------------*/
+#record{
+    min-height: 700px;
+    position: relative;
+    background: rgb(78, 73, 73);
+    /* background-image: url("img/iceland-5586225_1280.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255)
+}
+
+#record .h1{
+    text-shadow: 3px 1px 5px rgb(0, 0, 0);
+}
+
+#record .h4{
+    text-shadow: 5px 1px 5px rgb(0, 0, 0);
+}
+
+#record .h5{
+    text-shadow: 5px -1px 5px rgb(0, 0, 0);
+}
+/*-----------------------sec gallary------------------------------------------------*/
+#gallary{
+    min-height: 500px;
+    position: relative;
+    /* background-image: url("img/comm.jpg"); */
+    background: rgb(231, 227, 227);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(5, 5, 5)
+    
+}
+#gallary img{
+    
+    border:3px solid #d8d8d8;
+    padding:3px;
+    background-color:rgb(160, 160, 160);
+    box-shadow: 0 9px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#gallary button{
+    background-color: #333333; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);    */
+}
+
+#gallary .h4{
+    text-shadow: 2px 0px 3px rgb(0, 0, 0);
+}
+
+/*-----------------------sec skill---------------------------------------------------*/
+#skill{
+    min-height: 200px;
+    position: relative;
+    background-color: rgb(190, 187, 184);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black
+}
+#skill1{
+    min-height: 200px;
+    position: relative;
+    background-color: rgb(199, 194, 190);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black
+}
+
+#skill #h2{
+    text-shadow: 3px -1px 4px rgb(0, 0, 0);
+}
+
+/*-----------------------sec gallary2 ภาพโปรแกรม--------------------------------------*/
+#gallary2{
+    min-height: 50px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black
+}
+
+#gallary2 #h2{
+    text-shadow: 3px -1px 3px rgb(0, 0, 0);
+}
+
+/*-----------------------sec gallary2 follow------------------------------------------*/
+#follow{
+    min-height: 50px;
+    position: relative;
+    background-color: rgb(156, 152, 148);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(17, 16, 16)
+}
+
+#follow button{
+    background-color: #0a0a0a; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+ul.menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+
+}
+ul.menu li{
+    list-style: none;
+    
+}
+ul.menu li a{
+    text-decoration: none;
+    color:rgb(209, 209, 209);
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+    padding: 0.5vw 1vw;
+}
+ul.menu li a:hover{
+    background:rgb(77, 92, 109);
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+}
+
+#follow2{
+    min-height: 50px;
+    position: relative;
+    background-color: rgb(39, 36, 36);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255)
+}
+/*-----------------------sec foot-----------------------------------------------------*/
+#foot{  
+    /* background-image: url("img/comm.jpg"); */
+    min-height: 10px;
+    background: rgb(41, 39, 41);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
